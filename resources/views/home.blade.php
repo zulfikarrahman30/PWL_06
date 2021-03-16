@@ -15,6 +15,52 @@
                     @endif
 
                     {{ __('You are logged in!') }}
+                    <table class="table table-rensponsive">
+                        <tr>
+                            <th>
+                                username
+                                <th>
+                                :
+                                </th>
+                                <td>
+                                {{$data->username}}
+                                </td>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                name
+                                <th>
+                                :
+                                </th>
+                                <td>
+                                {{$data->name}}
+                                </td>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                email
+                                <th>
+                                :
+                                </th>
+                                <td>
+                                {{$data->email}}
+                                </td>
+                            </th>
+                        </tr>
+                        <tr>
+                            <th>
+                                created at
+                                <th>
+                                :
+                                </th>
+                                <td>
+                                {{$data->created_at}}
+                                </td>
+                            </th>
+                        </tr>
+                    </table>
                 </div>
             </div>
         </div>
